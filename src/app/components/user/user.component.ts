@@ -7,7 +7,6 @@ import {
   computed,
   output,
 } from '@angular/core';
-import { DUMMY_USERS } from '../../services/dummies/dummy-users';
 import { User } from '../../models/user.model';
 
 // const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
