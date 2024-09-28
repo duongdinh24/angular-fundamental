@@ -8,6 +8,7 @@ import {
   output,
 } from '@angular/core';
 import { User } from '../../models/user.model';
+import { CardComponent } from '../shared/card/card.component';
 
 // const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
 // type User = {
@@ -19,7 +20,7 @@ import { User } from '../../models/user.model';
 @Component({
   selector: 'app-user',
   standalone: true,
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
